@@ -34,3 +34,7 @@ I followed the instructions for window in powershell.
 Then I followed the instructions and type the command in VScode, Then I can do ssh and scp without entering my passport.
 
 Optimizing Remote Running:
+
+<img width="638" alt="8" src="https://user-images.githubusercontent.com/92092627/149407297-335352a2-88f0-42d4-9636-1773deeb701d.png">
+
+I tried few command to make remote running, and I also use semicolons to run multiple commands on the same line. I tried 10 commands including all typing, the total time will be 3mins.
