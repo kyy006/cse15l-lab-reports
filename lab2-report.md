@@ -40,3 +40,26 @@ The junit test failed.
 
   The symptom is junit test failed. The bug is wrong code in the try catch test method. 
   The failure-inducing input: we need to figure out how to use try catch and know how the test method can catch exception first, so we changed the file to empty file and search empty string.
+  
+  
+# 3:
+
+- Show a screenshot of the code change diff from Github:
+
+<img width="541" alt="5" src="https://user-images.githubusercontent.com/92092627/151539030-24736732-8cf9-4821-b161-e1f97890869d.png">
+
+- Link to the test file for a failure-inducing input that prompted you to make that change: 
+
+https://github.com/kyy006/markdown-parse/blob/main/test5.md
+
+https://github.com/kyy006/markdown-parse/blob/main/MarkdownParse.java
+
+- Show the symptom of that failure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history):
+
+Did not include the first link
+
+<img width="482" alt="6" src="https://user-images.githubusercontent.com/92092627/151539274-3178c18f-db2f-4450-9a6c-4a626b768267.png">
+
+
+- Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input:
+The symptom is the output that did not include the first link we want to show. The bug: there is no [] at the beginning ,so the code cannot search for the link. The failure-inducing input: we place the link into "<>", we should put the link into the required format.
