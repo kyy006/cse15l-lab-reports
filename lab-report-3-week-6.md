@@ -33,5 +33,6 @@ Then this file will come out, then Type `IdentityFile C:\Users\User\.ssh\id_rsa`
 Then we can type the `ssh ieng6` in the terminal, log in to the server.
 <img width="526" alt="9" src="https://user-images.githubusercontent.com/92092627/153645841-b1832ba6-c8c2-4fdc-a05e-1956ad142b14.png">
 
-
+Then type `scp GradingTests.java ieng6:~/`, to copy the file to the server, and it shows up in the account.
+<img width="659" alt="11" src="https://user-images.githubusercontent.com/92092627/153647049-dd8f8139-446d-4c12-a408-fa12516e1234.png">
 
