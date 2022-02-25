@@ -15,8 +15,7 @@ There will be 3 expected link of string on each snippet
 
 My `MarkdownParseTest.java` file:
 
-<img width="704" alt="testfile" src="https://user-images.githubusercontent.com/92092627/155785670-cf8d6bd6-6253-4276-a467-8c8cf87fac63.png">
-
+<img width="699" alt="testfile" src="https://user-images.githubusercontent.com/92092627/155788739-6bde5f99-e481-42a8-b720-655f7dbdafee.png">
 
 Then type these 2 command to test our code:
 
@@ -27,7 +26,7 @@ Then type these 2 command to test our code:
 
 shows the test failure:
 
-<img width="693" alt="runtest" src="https://user-images.githubusercontent.com/92092627/155785689-bf1f00ff-6720-4dd5-b6a3-5f3c029d87a5.png">
+<img width="687" alt="runtest" src="https://user-images.githubusercontent.com/92092627/155788821-81d3f389-90a1-4076-beea-ae1cb380d495.png">
 
 
 `testFile1`,`testFile3`,`testFile5`  corresponding to my MardownParse.java
