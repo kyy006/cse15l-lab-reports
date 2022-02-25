@@ -12,6 +12,17 @@ My `MarkdownParseTest.java` file:
 
 <img width="648" alt="testfile" src="https://user-images.githubusercontent.com/92092627/155770125-7bfac8c2-58f3-40b9-b512-fd8be2f29aee.png">
 
+Then type these 2 command to test our code:
+
 `javac -cp ".;lib\junit-4.13.2.jar;lib\hamcrest-core-1.3.jar" MarkdownParseTest.java`
 
 `java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore MarkdownParseTest`
+
+
+shows the test failure:
+
+<img width="696" alt="runtest" src="https://user-images.githubusercontent.com/92092627/155770580-cdaccb29-e854-46fc-9c94-549f3d74a224.png">
+
+`testFile1`,`testFile3`,`testFile5`  corresponding to my MardownParse.java
+
+`testFile2`,`testFile4`,`testFile6`  corresponding to the one I reviewed
