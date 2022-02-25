@@ -36,6 +36,7 @@ shows the test failure:
 So, for my implementation and the implementation that I reviewed failed to pass all tests.
 
 Answer the following questions with 2-3 sentences each:
+
 1.Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
 
 Yes, I think there are two backticks to make the text inside that to be code text and different front of text, we should check this condition to avoid that. If there is code text, then we should not treat this as a link. but my code treat this as a link.
