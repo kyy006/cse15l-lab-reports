@@ -36,11 +36,19 @@ shows the test failure:
 So, for my implementation and the implementation that I reviewed failed to pass all tests.
 
 Answer the following questions with 2-3 sentences each:
-Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+1.Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
 
-Yes, I think there are two ` to make the text inside that to be code text and different front of text, we should check this condition to avoid that. If there is code text, then we should not treat this as a link. but my code treat this as a link.
-Also, my code seems like only can return one string
+Yes, I think there are two backticks to make the text inside that to be code text and different front of text, we should check this condition to avoid that. If there is code text, then we should not treat this as a link. but my code treat this as a link.
 
 
-Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
-Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+2.Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+yes,my code seems like only can return one string, from the failed test, `java.lang.AssertionError: expected:<[a.com]> but was:<[a.com, a.com(()), example.com]>`, I have the first element of the expected string , but there are other two missing, I should change my code to invole the others.
+
+
+
+3.Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+yes,my code seems like only can return one string, from the failed test, `java.lang.AssertionError: expected:<[https://www.twitter.com]> but was:<[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]>`, I have the first element of the expected string , but there are other two missing, I should change my code to invole the others.
+
