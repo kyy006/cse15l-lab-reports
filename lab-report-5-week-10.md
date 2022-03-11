@@ -13,3 +13,22 @@ How you found the tests with different results (Did you use diff on the results 
 I used the `diff mymarkdown1/results.txt markdown-parse/results.txt` to find the different results, `mymarkdown1` is my implementation, `markdown-parse` is the implementation provided for lab 9.
 
 <img width="515" alt="runtestresult" src="https://user-images.githubusercontent.com/92092627/157803784-6fc587c0-9db7-49fb-a39a-5534372f13e8.png">
+
+
+two tests are different:
+
+<img width="219" alt="pick2" src="https://user-images.githubusercontent.com/92092627/157804163-1428c11d-6b50-42e3-af21-a74891353550.png">
+
+
+first one:
+
+The first different happened on line 270. So we want to open the results.txt to see which file belongs to.
+
+`cd mymarkdown1` > `vim results.txt` > `:set number`
+
+Then we can see the results.txt with line number, and that’s the test output for the file `22.md`
+
+<img width="466" alt="findmd" src="https://user-images.githubusercontent.com/92092627/157805250-5a53acc1-f5f2-4aaf-8725-3fc4b37a3e41.png">
+
+` 269 test-files/22.md`
+`270 [/bar\* "ti\*tle"`
