@@ -20,7 +20,7 @@ two tests are different:
 <img width="219" alt="pick2" src="https://user-images.githubusercontent.com/92092627/157804163-1428c11d-6b50-42e3-af21-a74891353550.png">
 
 
-first one:
+first test:
 
 The first different happened on line 270. So we want to open the results.txt to see which file belongs to.
 
@@ -42,7 +42,7 @@ Provided implementation:
 
 
 
-second one:
+second test:
 The first different happened on line 492. And we do the same thing to check which file belongs to.
 
 `cd mymarkdown1` > `vim results.txt` > `:set number`
