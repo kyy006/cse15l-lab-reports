@@ -28,7 +28,31 @@ The first different happened on line 270. So we want to open the results.txt to 
 
 Then we can see the results.txt with line number, and that’s the test output for the file `22.md`
 
+In my implementation:
+
 <img width="466" alt="findmd" src="https://user-images.githubusercontent.com/92092627/157805250-5a53acc1-f5f2-4aaf-8725-3fc4b37a3e41.png">
 
 ` 269 test-files/22.md`
 `270 [/bar\* "ti\*tle"`
+
+Provided implementation:
+
+![image](https://user-images.githubusercontent.com/92092627/157805598-7edd9194-fc05-48e4-9f6c-fd2d965fe9ea.png)
+
+
+
+second one:
+The first different happened on line 492. And we do the same thing to check which file belongs to.
+
+`cd mymarkdown1` > `vim results.txt` > `:set number`
+
+Then we can see the results.txt with line number, and that’s the test output for the file `32.md`
+
+In my implementation:
+
+![image](https://user-images.githubusercontent.com/92092627/157806025-cea7476e-e16b-4d18-8f50-6131f149948e.png)
+
+
+Provided implementation:
+
+![image](https://user-images.githubusercontent.com/92092627/157805841-138f0886-370a-438a-9cca-0320e96aa77b.png)
